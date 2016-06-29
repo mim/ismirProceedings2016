@@ -6,6 +6,8 @@
 \usepackage{setspace}
 
 
+\newcommand{\includeabstract}[3]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
+\includepdf[pages=-,pagecommand=\thispagestyle{fancy}]{#3}}
 
 
 \begin{document}
