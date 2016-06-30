@@ -25,6 +25,7 @@
 *.mtc1
 *.nav
 *.out
+*.pyc
 *.rip
 *.run.xml
 *.snm
