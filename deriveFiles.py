@@ -8,8 +8,8 @@ electronic proceedings.
 """
 
 import csv
-import codecs
-import io
+import collections
+import os
 
 def unicode_csv_reader(utf8_data, dialect="excel", **kwargs):
     """This function will read a csv file and will interpret the
@@ -21,11 +21,12 @@ def unicode_csv_reader(utf8_data, dialect="excel", **kwargs):
     for row in csv_reader:
         yield [unicode(cell, 'utf-8') for cell in row]
 
-def unicode_tsv_reader(utf8file):
+def unicode_tsv_reader(utf8FileName):
     "Generator for reading a tab-delimited file"
-    for line in utf8file.readlines():
-        #yield [cell for cell in unicode(line, 'utf-8').rstrip('\n\r').split('\t')]
-        yield [cell for cell in line.rstrip('\n\r').split('\t')]
+    with open(utf8FileName) as utf8file:
+        for line in utf8file.readlines():
+            #yield [cell for cell in unicode(line, 'utf-8').rstrip('\n\r').split('\t')]
+            yield [cell for cell in line.rstrip('\n\r').split('\t')]
         
 def generatePapersDotTex(csvFile):
     lastSession = ""
@@ -55,17 +56,50 @@ def papersSectionHeader(name, page):
     return chunk
 
 def loadSessionInfo():
-    with open('data/sessionInfo.csv') as csvFile:
-        return {k: (name, int(num)) for k, name, num in unicode_tsv_reader(csvFile)}
+    return {k: (name, int(num)) for k, name, num
+            in unicode_tsv_reader('data/sessionInfo.csv')}
 
+    
 def generateElectronicCsvFiles(csvFile):
-    pass
+    generateSessionIndex(csvFile)
+    generateSessionFiles(csvFile)
+    
+def generateSessionIndex(csvFile):
+    sessionInfo = loadSessionInfo()
+    fileName = '2016_Proceedings_ISMIR_Electronic_Tools/data/session_index.csv'
+    makeDirs(os.path.dirname(fileName))
+    with open(fileName, 'w') as sessionFile:
+        for session, (name, number) in sorted(sessionInfo.iteritems()):
+            sessionFile.write('%s;%s;%s\n' % (session, number, name))
+        
+def generateSessionFiles(csvFile):
+    sessionInfo = loadSessionInfo()
+    sessions = collections.defaultdict(list)
+    for title, authors, number, session in unicode_tsv_reader(csvFile):
+        sessions[session].append((title, authors, int(number)))
+    for session, info in sessions.iteritems():
+        fileName = os.path.join('2016_Proceedings_ISMIR_Electronic_Tools/data',
+                                '%s.csv' % session)
+        makeDirs(os.path.dirname(fileName))
+        with open(fileName, 'w') as sessionFile:
+            for title, authors, number in info:
+                sessionFile.write('%s;%s;articles/%03d_Paper.pdf\n'
+                                  % (title, authors, number))
 
+def makeDirs(path):
+    sub_path = os.path.dirname(path)
+    if sub_path == path:
+        raise "sub_path == path: %s" % path
+    if len(sub_path) > 0 and not os.path.exists(sub_path):
+        makeDirs(sub_path)
+    if not os.path.exists(path):
+        os.mkdir(path)
 
+                
 def main():
-    with open('data/completePaperList.csv') as csvFile:
-        generatePapersDotTex(csvFile)
-        generateElectronicCsvFiles(csvFile)
+    csvFile = 'data/completePaperList.csv'
+    generatePapersDotTex(csvFile)
+    generateElectronicCsvFiles(csvFile)
 
 
 
