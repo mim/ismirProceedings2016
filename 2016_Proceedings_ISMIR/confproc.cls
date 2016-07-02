@@ -26,7 +26,7 @@
 %\PassOptionsToClass{twocolumn}{article}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions
-\LoadClass[11pt, twoside, a4paper]{article}
+\LoadClass[10pt, twoside, a4paper]{article}
 \RequirePackage{fancyhdr}
 %\setlength{\headheight}{14.5pt} % because of the superscript in the date
 \RequirePackage[inner=2.2cm,outer=1.8cm,top=2.8cm,bottom=3.0cm]{geometry}

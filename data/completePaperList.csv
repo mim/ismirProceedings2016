@@ -22,7 +22,7 @@ A LOOK AT THE CLOUD FROM BOTH SIDES NOW: AN ANALYSIS OF CLOUD MUSIC SERVICE USAG
 A Hybrid Gaussian-HMM-Deep Learning Approach For Automatic Chord Estimation With Very Large Vocabulary	Junqi Deng and Yu-Kwong Kwok	58	10_oral-session-07
 SYSTEMATIC EXPLORATION OF COMPUTATIONAL MUSIC STRUCTURE RESEARCH	Oriol Nieto and Juan Pablo Bello	43	10_oral-session-07
 Extracting Ground-Truth Information from MIDI Files: A MIDIfesto	Colin Raffel and Daniel Ellis	105	10_oral-session-07
-TIME-DELAYED MELODY SURFACES FOR R_GA RECOGNITION	Sankalp Gulati, Joan Serrà, Kaustuv Kanti Ganguli, Sertan _entürk and Xavier Serra	30	01_poster-session-01
+TIME-DELAYED MELODY SURFACES FOR RAGA RECOGNITION	Sankalp Gulati, Joan Serrà, Kaustuv Kanti Ganguli, Sertan entürk and Xavier Serra	30	01_poster-session-01
 ON PRACTICAL STRATEGIES OF MELODY INDEXING FOR QUERY BY HUMMING	Bartlomiej Stasiak	89	01_poster-session-01
 Recurrent Neural Networks for Drum Transcription	Richard Vogl, Matthias Dorfer and Peter Knees	269	01_poster-session-01
 Integer Programming Formulation of the Problem of Generating Milton Babbitt's All-partition Arrays	Tsubasa Tanaka, Brian Bemman and David Meredith	34	01_poster-session-01
@@ -38,7 +38,7 @@ Analysis and classification of phonation modes in singing	Daniel Stoller and Sim
 Beat Tracking with a Cepstroid Invariant Neural Network	Anders Elowsson	252	01_poster-session-01
 On drum playing technique detection in polyphonic mixtures	Chih-Wei Wu and Alexander Lerch	268	01_poster-session-01
 MusicDB: A Platform for Longitudinal Music Analytics	Jeremy Hyrkas and Bill Howe	284	01_poster-session-01
-Further Steps towards a Standard Testbed for Optical Music Recognition	Jan Haji_, jr., Ji_í Novotn_, Pavel Pecina and Jaroslav Pokorn_	289	01_poster-session-01
+Further Steps towards a Standard Testbed for Optical Music Recognition	Jan Haji, jr., Jií Novotn, Pavel Pecina and Jaroslav Pokorn	289	01_poster-session-01
 Two (note) heads are better than one: pen-based multimodal interaction with music notation	Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta	6	01_poster-session-01
 Music Structural Segmentation Across Genres with Gammatone Features	Mi Tian and Mark B. Sandler	32	01_poster-session-01
 Enhancing cover song identification with hierarchical rank aggregation	Julien Osmalskyj, Marc Van Droogenbroeck and Jean-Jacques Embrechts	64	01_poster-session-01
@@ -68,7 +68,7 @@ Impact of Music on Decision Making in Quantitative Tasks	Elad Liebman, Peter Sto
 WiMIR: An Informetric Study on Women Authors in ISMIR	Xiao Hu, Kahyun Choi, Jin Ha Lee, Audrey Laplante, Yun Hao, Sally Jo Cunningham and J. Stephen Downie	283	04_poster-session-02
 Aligned Hierarchies: A Multi-Scale Structure-Based Representation for Music-Based Data Streams	Katherine M. Kinnaird	20	04_poster-session-02
 Genre specific dictionaries for harmonic/percussive source separation	Clément Laroche, Hélène Papadopoulos, Matthieu Kowalski and Gaël Richard	42	04_poster-session-02
-SPARSE CODING BASED MUSIC GENRE CLASSIFICATION USING SPECTRO_TEMPORAL MODULATIONS	Chih-Shan Lin, Kai-Chun Hsu and Tai-Shih Chi	46	04_poster-session-02
+SPARSE CODING BASED MUSIC GENRE CLASSIFICATION USING SPECTRO-TEMPORAL MODULATIONS	Chih-Shan Lin, Kai-Chun Hsu and Tai-Shih Chi	46	04_poster-session-02
 TOWARDS EVALUATING MULTIPLE PREDOMINANT MELODY ANNOTATIONS IN JAZZ RECORDINGS	Stefan Balke, Jonathan Driedger, Jakob Abesser, Christian Dittmar and Meinard Mueller	49	04_poster-session-02
 Simultaneous Separation and Segmentation in Layered Music	Prem Seetharaman and Bryan Pardo	57	04_poster-session-02
 Composer Recognition based on 2D-Filtered Piano-Rolls	Gissel Velarde, Carlos Cancino Chacón, David Meredith, Weyde Tillman and Maaten Grachten	63	04_poster-session-02
@@ -104,7 +104,7 @@ Mining Online Music Listening Trajectories	Flavio Figueiredo, Bruno Ribeiro, Jus
 Good-sounds.org: a framework to explore goodness in instrumental sounds	Giuseppe Bandiera, Oriol Romani Picas and Xavier Serra	199	08_poster-session-03
 Adaptive Frequency Neural Networks for Dynamic Pulse and Metre Perception	Andrew Lambert, Tillman Weyde and Newton Armstrong	228	08_poster-session-03
 Integration and Quality Assessment of Heterogeneous Chord Sequences using Data Fusion	Hendrik Vincent Koops, W. Bas de Haas, Dimitrios Bountouridis and Anja Volk	19	08_poster-session-03
-Can Microblogs Predict Music Charts? An Analysis of the Relationship between #Nowplaying Tweets and Music Charts	Eva Zangerle, Martin Pichl, Benedikt Hupfauf and Günther Specht	39	08_poster-session-03
+Can Microblogs Predict Music Charts? An Analysis of the Relationship between \#Nowplaying Tweets and Music Charts	Eva Zangerle, Martin Pichl, Benedikt Hupfauf and Günther Specht	39	08_poster-session-03
 Mixtape: Direction-based navigation in large music collections	Joao Paulo V. Cardoso, Luciana Fujii Pontello, Pedro H. F. Holanda, Bruno Guilherme, Olga Goussevskaia and Ana Paula Couto da SIlva	155	08_poster-session-03
 An Evaluation Framework and Case Study for Rhythmic Concatenative Synthesis	Cárthach Ó Nuanáin, Perfecto Herrera and Sergi Jordà	180	08_poster-session-03
 Interactive Scores in Classical Music Production	Simon Waloschek, Axel Berndt, Benjamin W. Bohl and Aristotelis Hadjakos	192	08_poster-session-03
