@@ -7,8 +7,11 @@
 
 \usepackage{mathptmx}  % Use times font for text and math
 
-\newcommand{\includeabstract}[3]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
-\includepdf[pages=-,pagecommand=\thispagestyle{fancy}]{#3}}
+\newcommand{\includeabstract}[4]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
+  \subsection*{#1\\\textit{#2}}
+  #3
+
+  #4}
 
 
 \begin{document}
