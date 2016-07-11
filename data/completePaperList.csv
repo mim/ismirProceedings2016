@@ -7,10 +7,10 @@ Bayesian meter tracking on learned signal representations	Andre Holzapfel and Th
 Tempo Estimation for Music Loops and a Simple Confidence Measure	Frederic Font and Xavier Serra	195	03_oral-session-02
 Brain Beats: Tempo Extraction from EEG Data	Sebastian Stober, Thomas Praetzlich and Meinard Mueller	22	03_oral-session-02
 A Plan For Sustainable Mir Evaluation	Brian McFee, Eric Humphrey and Julián Urbano	257	04_oral-session-03
-Go With The Flow: When Listeners Use Music As Technology	Andrew Demetriou, Martha Larson and Cynthia C. S. Liem	79	04_oral-session-03
-A Look At The Cloud From Both Sides Now: An Analysis Of Cloud Music Service Usage	Jin Ha Lee, Yea-Seul Kim and Chris Hubbles	165	04_oral-session-03
-Analyzing Measure Annotations For Western Classical Music Recordings	Christof Weiß, Vlora Arifi-Müller, Thomas Prätzlich, Rainer Kleinertz and Meinard Müller	156	06_oral-session-04
-Instrumental Idiom In The 16Th Century: Patterns In Arrangements Of Vocal Music	David Lewis, Tim Crawford and Daniel Müllensiefen	166	06_oral-session-04
+Go With The Flow: When Listeners Use Music As Technology	Andrew Demetriou, Martha Larson and Cynthia C. S. Liem	68	04_oral-session-03
+A Look At The Cloud From Both Sides Now: An Analysis Of Cloud Music Service Usage	Jin Ha Lee, Yea-Seul Kim and Chris Hubbles	87	04_oral-session-03
+Analyzing Measure Annotations For Western Classical Music Recordings	Christof Weiß, Vlora Arifi-Müller, Thomas Prätzlich, Rainer Kleinertz and Meinard Müller	79	06_oral-session-04
+Instrumental Idiom In The 16Th Century: Patterns In Arrangements Of Vocal Music	David Lewis, Tim Crawford and Daniel Müllensiefen	165	06_oral-session-04
 The Sousta Corpus: Beat-Informed Automatic Transcription Of Traditional Dance Tunes	Andre Holzapfel and Emmanouil Benetos	156	06_oral-session-04
 Learning A Feature Space For World Music Style Similarity	Maria Panteli, Emmanouil Benetos and Simon Dixon	166	06_oral-session-04
 Systematic Exploration Of Computational Music Structure Research	Oriol Nieto and Juan Pablo Bello	43	07_oral-session-05
@@ -107,7 +107,7 @@ Piano Transcription Using An Exponential Decay Model	Tian Cheng, Matthias Mauch,
 Querying Xml Score Databases: Xquery Is Not Enough!	Raphael Fournier-S'niehotta, Philippe Rigaux and Nicolas Travers	136	08_poster-session-03
 Recurrent Neural Networks For Drum Transcription	Richard Vogl, Matthias Dorfer and Peter Knees	269	08_poster-session-03
 Singing Voice Melody Transcription Using Deep Neural Networks	François Rigaud and Mathieu Radenen	163	08_poster-session-03
-Sparse Coding Based Music Genre Classification Using Spectro－Temporal Modulations	Chih-Shan Lin, Kai-Chun Hsu and Tai-Shih Chi	46	08_poster-session-03
+Sparse Coding Based Music Genre Classification Using Spectro-Temporal Modulations	Chih-Shan Lin, Kai-Chun Hsu and Tai-Shih Chi	46	08_poster-session-03
 Time-Delayed Melody Surfaces For Rāga Recognition	Sankalp Gulati, Joan Serrà, Kaustuv Kanti Ganguli, Sertan Şentürk and Xavier Serra	30	08_poster-session-03
 Transcribing Human Piano Performances Into Music Notation	Andrea Cogliati, David Temperley and Zhiyao Duan	88	08_poster-session-03
 Wimir: An Informetric Study On Women Authors In Ismir	Xiao Hu, Kahyun Choi, Jin Ha Lee, Audrey Laplante, Yun Hao, Sally Jo Cunningham and J. Stephen Downie	283	08_poster-session-03

@@ -41,7 +41,7 @@ def generatePapersDotTex(csvFile):
             lastSession = session
             
             papersDotTex.write('\includepaper{%s}{%s}{articles/%03d_Paper}\n'
-                               % (title, authors, int(number)))
+                               % (latexEscape(title), andToComma(authors), int(number)))
 
 
 def papersSectionHeader(name, page):
@@ -54,6 +54,12 @@ def papersSectionHeader(name, page):
 
 """ % (name, page)
     return chunk
+
+def latexEscape(string):
+    return string.replace('#','\#').replace('_','\_').replace('$','\$')
+
+def andToComma(string):
+    return string.replace(' and ', ', ')
 
 def loadSessionInfo():
     return {k: (name, int(num)) for k, name, num
