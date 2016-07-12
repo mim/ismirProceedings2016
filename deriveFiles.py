@@ -56,7 +56,7 @@ def papersSectionHeader(name, page):
     return chunk
 
 def latexEscape(string):
-    return string.replace('#','\#').replace('_','\_').replace('$','\$')
+    return string.replace('#','\#').replace('_','\_').replace('$','\$').replace('&','\&').replace('%','\%')
 
 def andToComma(string):
     return string.replace(' and ', ', ')
