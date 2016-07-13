@@ -31,18 +31,27 @@ def unicode_tsv_reader(utf8FileName):
 def generatePapersDotTex(csvFile):
     lastSession = ""
     sessionInfo = loadSessionInfo()
+    authorCount = collections.defaultdict(int)
+    
     # with io.open('2016_Proceedings_ISMIR/papers.tex', 'w', encoding='utf-8') as papersDotTex:
     # with codecs.open('2016_Proceedings_ISMIR/papers.tex', 'w', 'utf-8') as papersDotTex:
     with open('2016_Proceedings_ISMIR/papers.tex', 'w') as papersDotTex:
         for title, authors, number, session in unicode_tsv_reader(csvFile):
+            authors = andToComma(authors)
+            for author in authors.split(', '):
+                authorCount[author] += 1
+                
             if session != lastSession:
                 name, page = sessionInfo[session]
                 papersDotTex.write(papersSectionHeader(name, page))
             lastSession = session
             
             papersDotTex.write('\includepaper{%s}{%s}{articles/%03d_Paper}\n'
-                               % (latexEscape(title), andToComma(authors), int(number)))
+                               % (latexEscape(title), authors, int(number)))
 
+    #print sorted(authorCount.iteritems())
+    print "Total authorings: %s" % sum(authorCount.values())
+    print "Unique authors: %s" % len(authorCount)
 
 def papersSectionHeader(name, page):
     chunk = """
