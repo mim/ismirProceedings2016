@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xue
 
 rm -f 2016_Proceedings_ISMIR.{aux,ain,log,toc}
 pdflatex 2016_Proceedings_ISMIR.tex
