@@ -1,113 +1,29 @@
-SiMPle: Assessing Music Similarity Using Subsequences Joins	Diego Silva, Chin-Chia Michael Yeh, Gustavo Batista and Eamonn Keogh	99	01_oral-session-01
-Score-Informed Identification of Missing and Extra Notes in Piano Recordings	Sebastian Ewert, Siying Wang, Meinard Mueller and Mark Sandler	123	01_oral-session-01
-Feature Learning for Chord Recognition: The Deep Chroma Extractor	Filip Korzeniowski and Gerhard Widmer	178	01_oral-session-01
-Learning to Pinpoint Singing Voice from Weakly Labeled Examples	Jan Schlüter	315	01_oral-session-01
-Joint Beat and Downbeat Tracking with Recurrent Neural Networks	Sebastian Böck, Florian Krebs and Gerhard Widmer	186	03_oral-session-02
-Bayesian Meter Tracking on Learned Signal Representations	Andre Holzapfel and Thomas Grill	132	03_oral-session-02
-Tempo Estimation for Music Loops and a Simple Confidence Measure	Frederic Font and Xavier Serra	195	03_oral-session-02
-Brain Beats: Tempo Extraction from EEG Data	Sebastian Stober, Thomas Praetzlich and Meinard Mueller	22	03_oral-session-02
-A Plan for Sustainable MIR Evaluation	Brian McFee, Eric Humphrey and Julián Urbano	257	04_oral-session-03
-Go with the Flow: When Listeners Use Music as Technology	Andrew Demetriou, Martha Larson and Cynthia C. S. Liem	68	04_oral-session-03
-A Look at the Cloud from Both Sides Now: An Analysis of Cloud Music Service Usage	Jin Ha Lee, Yea-Seul Kim and Chris Hubbles	87	04_oral-session-03
-Analyzing Measure Annotations for Western Classical Music Recordings	Christof Weiß, Vlora Arifi-Müller, Thomas Prätzlich, Rainer Kleinertz and Meinard Mueller	79	06_oral-session-04
-Instrumental Idiom in the 16th Century: Embellishment Patterns in Arrangements of Vocal Music	David Lewis, Tim Crawford and Daniel Müllensiefen	165	06_oral-session-04
-The Sousta Corpus: Beat-Informed Automatic Transcription of Traditional Dance Tunes	Andre Holzapfel and Emmanouil Benetos	156	06_oral-session-04
-Learning a Feature Space for Similarity in World Music	Maria Panteli, Emmanouil Benetos and Simon Dixon	166	06_oral-session-04
-Systematic Exploration of Computational Music Structure Research	Oriol Nieto and Juan Pablo Bello	43	07_oral-session-05
-Using Priors to Improve Estimates of Music Structure	Jordan Smith and Masataka Goto	135	07_oral-session-05
-Music Structural Segmentation Across Genres with Gammatone Features	Mi Tian and Mark Sandler	32	07_oral-session-05
-Automatic Melodic Reduction Using a Supervised Probabilistic Context-Free Grammar	Ryan Groves	274	09_oral-session-06
-A Neural Greedy Model for Voice Separation in Symbolic Music	Patrick Gray and Razvan Bunescu	296	09_oral-session-06
-Towards Score Following In Sheet Music Images	Matthias Dorfer, Andreas Arzt and Gerhard Widmer	27	09_oral-session-06
-Extracting Ground-Truth Information from MIDI Files: A MIDIfesto	Colin Raffel and Daniel Ellis	105	09_oral-session-06
-Automatic Tagging Using Deep Convolutional Neural Networks	Keunwoo Choi, György Fazekas and Mark Sandler	9	10_oral-session-07
-A Hybrid Gaussian-HMM-Deep Learning Approach for Automatic Chord Estimation with Very Large Vocabulary	Junqi Deng and Yu-Kwong Kwok	58	10_oral-session-07
-Melody Extraction on Vocal Segments Using Multi-Column Deep Neural Networks	Sangeun Kum, Changheun Oh and Juhan Nam	119	10_oral-session-07
-A Corpus of Annotated Irish Traditional Dance Music Recordings: Design and Benchmark Evaluations	Pierre Beauguitte, Bryan Duggan and John Kelleher	148	02_poster-session-01
-Adaptive Frequency Neural Networks for Dynamic Pulse and Metre Perception	Andrew Lambert, Tillman Weyde and Newton Armstrong	228	02_poster-session-01
-An Evaluation Framework and Case Study for Rhythmic Concatenative Synthesis	Cárthach Ó Nuanáin, Perfecto Herrera and Sergi Jordà	180	02_poster-session-01
-An Ontology for Audio Features	Alo Allik, György Fazekas and Mark Sandler	77	02_poster-session-01
-Analysis and Classification of Phonation Modes In Singing	Daniel Stoller and Simon Dixon	233	02_poster-session-01
-Analysis of Vocal Imitations of Pitch Trajectories	Jiajie Dai and Simon Dixon	127	02_poster-session-01
-Automatic Music Recommendation Systems: Do Demographic, Profiling, and Contextual Features Improve Their Performance?	Gabriel Vigliensoni and Ichiro Fujinaga	44	02_poster-session-01
-Automatic Outlier Detection in Music Genre Datasets	Yen-Cheng Lu, Chih-Wei Wu, Alexander Lerch and Chang-Tien Lu	215	02_poster-session-01
-AVA: An Interactive System for Visual and Quantitative Analyses of Vibrato and Portamento Performance Styles	Luwei Yang, Khalid Z. Rajab and Elaine Chew	314	02_poster-session-01
-Composer Recognition Based on 2D-Filtered Piano-Rolls	Gissel Velarde, Tillman Weyde, Carlos Cancino Chacón, David Meredith and Maarten Grachten	63	02_poster-session-01
-Conversations with Expert Users in Music Retrieval and Research Challenges for Creative MIR	Kristina Andersen and Peter Knees	246	02_poster-session-01
-Downbeat Tracking Using Beat Synchronous Features with Recurrent Neural Networks	Florian Krebs, Sebastian Böck, Matthias Dorfer and Gerhard Widmer	249	02_poster-session-01
-Enhancing Cover Song Identification with Hierarchical Rank Aggregation	Julien Osmalskyj, Marc Van Droogenbroeck and Jean-Jacques Embrechts	64	02_poster-session-01
-Ensemble: A Hybrid Human-Machine System for Generating Melody Scores from Audio	Tim Tse, Justin Salamon, Alex Williams, Helga Jiang and Edith Law	72	02_poster-session-01
-Exploring Customer Reviews for Music Genre Classification and Evolutionary Studies	Sergio Oramas, Luis Espinosa-Anke, Aonghus Lawlor, Xavier Serra and Horacio Saggion	240	02_poster-session-01
-Further Steps Towards a Standard Testbed for Optical Music Recognition	Jan Hajič jr., Jiří Novotný, Pavel Pecina and Jaroslav Pokorný	289	02_poster-session-01
-Improving Voice Separation by Better Connecting Contigs	Nicolas Guiomard-Kagan, Mathieu Giraud, Richard Groult and Florence Levé	129	02_poster-session-01
-Integer Programming Formulation of the Problem of Generating Milton Babbitt's All-Partition Arrays	Tsubasa Tanaka, Brian Bemman and David Meredith	34	02_poster-session-01
-Integration and Quality Assessment of Heterogeneous Chord Sequences Using Data Fusion	Hendrik Vincent Koops, W. Bas de Haas, Dimitrios Bountouridis and Anja Volk	19	02_poster-session-01
-Landmark-Based Audio Fingerprinting for DJ Mix Monitoring	Reinhard Sonnleitner, Andreas Arzt and Gerhard Widmer	187	02_poster-session-01
-Learning and Visualizing Music Specifications Using Pattern Graphs	Rafael Valle, Daniel J. Fremont, Ilge Akkaya, Alexandre Donzé, Adrian Freed and Sanjit A. Seshia	280	02_poster-session-01
-Listen To Me – Don't Listen To Me: What Communities of Critics Tell Us About Music	Ben Fields and Christophe Rhodes	173	02_poster-session-01
-Long-Term Reverberation Modeling for Under-Determined Audio Source Separation with Application to Vocal Melody Extraction	Romain Hennequin and François Rigaud	196	02_poster-session-01
-Nonnegative Tensor Factorization with Frequency Modulation Cues for Blind Audio Source Separation	Elliot Creager, Noah Stein, Roland Badeau and Philippe Depalle	103	02_poster-session-01
-On Drum Playing Technique Detection in Polyphonic Mixtures	Chih-Wei Wu and Alexander Lerch	268	02_poster-session-01
-Predicting Missing Music Components with Bidirectional Long Short-Term Memory Neural Networks	I-Ting Liu and Richard Randall	97	02_poster-session-01
-Structural Segmentation and Visualization of Sitar and Sarod Concert Audio	Vinutha T. P., Suryanarayana Sankagiri, Kaustuv Kanti Ganguli and Preeti Rao	151	02_poster-session-01
-Template-Based Vibrato Analysis in Complex Music Signals	Jonathan Driedger, Stefan Balke, Sebastian Ewert and Meinard Mueller	5	02_poster-session-01
-Towards Evaluating Multiple Predominant Melody Annotations in Jazz Recordings	Stefan Balke, Jonathan Driedger, Jakob Abesser, Christian Dittmar and Meinard Mueller	49	02_poster-session-01
-A Hierarchical Bayesian Model of Chords, Pitches, and Spectrograms for Multipitch Analysis	Yuta Ojima, Eita Nakamura, Katsutoshi Itoyama and Kazuyoshi Yoshii	3	05_poster-session-02
-A Higher-Dimensional Expansion of Affective Norms for English Terms for Music Tagging	Michele Buccoli, Massimiliano Zanoni, György Fazekas, Augusto Sarti and Mark Sandler	253	05_poster-session-02
-A Latent Representation of Users, Sessions, and Songs for Listening Behavior Analysis	Chia-Hao Chung, Jing-Kai Lou and Homer Chen	110	05_poster-session-02
-A Methodology for Quality Assessment in Collaborative Score Libraries	Vincent Besson, Marco Gurrieri, Philippe Rigaux, Alice Tacaille and Virginie Thion	76	05_poster-session-02
-Aligned Hierarchies: A Multi-Scale Structure-Based Representation for Music-Based Data Streams	Katherine M. Kinnaird	20	05_poster-session-02
-Analysing Scattering-Based Music Content Analysis Systems: Where's the Music?	Francisco Rodríguez-Algarra, Bob L. Sturm and Hugo Maruri-Aguilar	146	05_poster-session-02
-Beat Tracking with a Cepstroid Invariant Neural Network	Anders Elowsson	252	05_poster-session-02
-Bootstrapping a System for Phoneme Recognition and Keyword Spotting in Unaccompanied Singing	Anna Kruspe	70	05_poster-session-02
-Can Microblogs Predict Music Charts? An Analysis of the Relationship Between #Nowplaying Tweets and Music Charts	Eva Zangerle, Martin Pichl, Benedikt Hupfauf and Günther Specht	39	05_poster-session-02
-Cross Task Study on MIREX Recent Results: An Index for Evolution Measurement and Some Stagnation Hypotheses	Ricardo Scholz, Geber Ramalho and Giordano Cabral	54	05_poster-session-02
-Cross-Collection Evaluation for Music Classification Tasks	Dmitry Bogdanov, Alastair Porter, Perfecto Herrera and Xavier Serra	220	05_poster-session-02
-Downbeat Detection with Conditional Random Fields and Deep Learned Features	Simon Durand and Slim Essid	213	05_poster-session-02
-Exploiting Frequency, Periodicity and Harmonicity Using Advanced Time-Frequency Concentration Techniques for Multipitch Estimation of Choir and Symphony	Li Su, Tsung-Ying Chuang and Yi-Hsuan Yang	104	05_poster-session-02
-Genre Ontology Learning: Comparing Curated with Crowd-Sourced Ontologies	Hendrik Schreiber	74	05_poster-session-02
-Genre Specific Dictionaries for Harmonic/Percussive Source Separation	Clément Laroche, Hélène Papadopoulos, Matthieu Kowalski and Gaël Richard	42	05_poster-session-02
-Good-sounds.org: A Framework to Explore Goodness in Instrumental Sounds	Giuseppe Bandiera, Oriol Romani Picas and Xavier Serra	199	05_poster-session-02
-Improving Predictions of Derived Viewpoints in Multiple Viewpoints Systems	Thomas Hedges and Geraint Wiggins	208	05_poster-session-02
-Known Artist Live Song ID: A Hashprint Approach	TJ Tsai, Thomas Praetzlich and Meinard Mueller	98	05_poster-session-02
-Learning Temporal Features Using a Deep Neural Network and its Application to Music Genre Classification	Il-Young Jeong and Kyogu Lee	159	05_poster-session-02
-Meter Detection in Symbolic Music Using Inner Metric Analysis	W. Bas de Haas and Anja Volk	33	05_poster-session-02
-Minimax Viterbi Algorithm for HMM-Based Guitar Fingering Decision	Gen Hori and Shigeki Sagayama	285	05_poster-session-02
-Mixtape: Direction-Based Navigation in Large Media Collections	Joao Paulo V. Cardoso, Luciana Fujii Pontello, Pedro H. F. Holanda, Bruno Guilherme, Olga Goussevskaia and Ana Paula Couto da Silva	155	05_poster-session-02
-Musical Note Estimation for F0 Trajectories of Singing Voices Based on a Bayesian Semi-Beat-Synchronous HMM	Ryo Nishikimi, Eita Nakamura, Katsutoshi Itoyama and Kazuyoshi Yoshii	4	05_poster-session-02
-On the Evaluation of Rhythmic and Melodic Descriptors for Music Similarity	Maria Panteli and Simon Dixon	161	05_poster-session-02
-On the Potential of Simple Framewise Approaches to Piano Transcription	Rainer Kelz, Matthias Dorfer, Filip Korzeniowski, Sebastian Böck, Andreas Arzt and Gerhard Widmer	179	05_poster-session-02
-Phrase-Level Audio Segmentation of Jazz Improvisations Informed by Symbolic Data	Jeff Gregorio and Youngmoo Kim	245	05_poster-session-02
-Revisiting Priorities: Improving MIR Evaluation Practices	Bob L. Sturm	128	05_poster-session-02
-Simultaneous Separation and Segmentation in Layered Music	Prem Seetharaman and Bryan Pardo	57	05_poster-session-02
-Towards Modeling and Decomposing Loop-Based Electronic Music	Patricio López-Serrano, Christian Dittmar, Jonathan Driedger and Meinard Mueller	65	05_poster-session-02
-Two (Note) Heads Are Better Than One: Pen-Based Multimodal Interaction with Music Scores	Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta	6	05_poster-session-02
-A Comparison of Melody Extraction Methods Based on Source-Filter Modelling	Juan J. Bosch, Rachel M. Bittner, Justin Salamon and Emilia Gómez	256	08_poster-session-03
-An Analysis of Agreement in Classical Music Perception and its Relationship to Listener Characteristics	Markus Schedl, Hamid Eghbal-Zadeh, Emilia Gómez and Marko Tkalcic	260	08_poster-session-03
-An Attack/Decay Model for Piano Transcription	Tian Cheng, Matthias Mauch, Emmanouil Benetos and Simon Dixon	85	08_poster-session-03
-Automatic Drum Transcription Using Bi-Directional Recurrent Neural Networks	Carl Southall, Ryan Stables and Jason Hockman	217	08_poster-session-03
-Automatic Practice Logging: Introduction, Dataset & Preliminary Study	R. Michael Winters, Siddharth Gururani and Alexander Lerch	181	08_poster-session-03
-Data-Driven Exploration of Melodic Structure in Hindustani Music	Kaustuv Kanti Ganguli, Sankalp Gulati, Xavier Serra and Preeti Rao	121	08_poster-session-03
-Deep Convolutional Networks on the Pitch Spiral For Music Instrument Recognition	Vincent Lostanlen and Carmine Emanuele Cella	93	08_poster-session-03
-DTV-Based Melody Cutting for DTW-Based Melody Search and Indexing in QbH Systems	Bartlomiej Stasiak	89	08_poster-session-03
-Elucidating User Behavior in Music Services Through Persona and Gender	John Fuller, Lauren Hubener, Yea-Seul Kim and Jin Ha Lee	205	08_poster-session-03
-Exploring the Latent Structure of Collaborations in Music Recordings: A Case Study in Jazz	Nazareno Andrade and Flavio Figueiredo	251	08_poster-session-03
-Global Properties of Expert and Algorithmic Hierarchical Music Analyses	Phillip Kirlin	259	08_poster-session-03
-Human-Interactive Optical Music Recognition	Liang Chen, Erik Stolterman and Christopher Raphael	106	08_poster-session-03
-I Said it First: Topological Analysis of Lyrical Influence Networks	Jack Atherton and Blair Kaneshiro	221	08_poster-session-03
-Impact of Music on Decision Making in Quantitative Tasks	Elad Liebman, Peter Stone and Corey White	272	08_poster-session-03
-Interactive Scores in Classical Music Production	Simon Waloschek, Axel Berndt, Benjamin W. Bohl and Aristotelis Hadjakos	192	08_poster-session-03
-Jazz Ensemble Expressive Performance Modeling	Helena Bantulà, Sergio Giraldo and Rafael Ramírez	162	08_poster-session-03
-Mining Musical Traits of Social Functions in Native American Music	Daniel Shanahan, Kerstin Neubarth and Darrell Conklin	167	08_poster-session-03
-Mining Online Music Listening Trajectories	Flavio Figueiredo, Bruno Ribeiro, Christos Faloutsos, Nazareno Andrade and Jussara M. Almeida	193	08_poster-session-03
-Musical Typicality: How Many Similar Songs Exist?	Tomoyasu Nakano, Daichi Mochihashi, Kazuyoshi Yoshii and Masataka Goto	191	08_poster-session-03
-MusicDB: A Platform for Longitudinal Music Analytics	Jeremy Hyrkas and Bill Howe	284	08_poster-session-03
-Noise Robust Music Artist Recognition Using I-Vector Features	Hamid Eghbal-zadeh and Gerhard Widmer	37	08_poster-session-03
-On the Use of Note Onsets for Improved Lyrics-To-Audio Alignment in Turkish Makam Music	Georgi Dzhambazov, Ajay Srinivasamurthy, Sertan Sentürk and Xavier Serra	243	08_poster-session-03
-Querying XML Score Databases: XQuery is not Enough!	Raphael Fournier-S'niehotta, Philippe Rigaux and Nicolas Travers	136	08_poster-session-03
-Recurrent Neural Networks for Drum Transcription	Richard Vogl, Matthias Dorfer and Peter Knees	269	08_poster-session-03
-Singing Voice Melody Transcription Using Deep Neural Networks	François Rigaud and Mathieu Radenen	163	08_poster-session-03
-Sparse Coding Based Music Genre Classification Using Spectro-Temporal Modulations	Kai-Chun Hsu, Chih-Shan Lin and Tai-Shih Chi	46	08_poster-session-03
-Time-Delayed Melody Surfaces for Rāga Recognition	Sankalp Gulati, Joan Serrà, Kaustuv Kanti Ganguli, Sertan Şentürk and Xavier Serra	30	08_poster-session-03
-Transcribing Human Piano Performances into Music Notation	Andrea Cogliati, David Temperley and Zhiyao Duan	88	08_poster-session-03
-WIMIR an Informetric Study on Women Authors in ISMIR	Xiao Hu, Kahyun Choi, Jin Ha Lee, Audrey Laplante, Yun Hao, Sally Jo Cunningham and J. Stephen Downie	283	08_poster-session-03
+A Comparison of Melody Extraction Methods Based on Source-Filter Modelling	Juan J. Bosch, Rachel M. Bittner, Justin Salamon and Emilia Gómez	256
+An Analysis of Agreement In Classical Music Perception and Its Relationship to Listener Characteristics	Markus Schedl, Hamid Eghbal-Zadeh, Emilia Gómez and Marko Tkalcic	260
+An Attack/Decay Model for Piano Transcription	Tian Cheng, Matthias Mauch, Emmanouil Benetos and Simon Dixon	85
+Automatic Drum Transcription Using Bi-Directional Recurrent Neural Networks	Carl Southall, Ryan Stables and Jason Hockman	217
+Automatic Practice Logging: Introduction, Dataset & Preliminary Study	R. Michael Winters, Siddharth Gururani and Alexander Lerch	181
+Data-Driven Exploration of Melodic Structure in Hindustani Music	Kaustuv Kanti Ganguli, Sankalp Gulati, Xavier Serra and Preeti Rao	121
+Deep Convolutional Networks on the Pitch Spiral For Music Instrument Recognition	Vincent Lostanlen and Carmine Emanuele Cella	93
+DTV-Based Melody Cutting for DTW-Based Melody Search And Indexing In QbH Systems	Bartlomiej Stasiak	89
+Elucidating User Behavior in Music Services Through Persona and Gender	John Fuller, Lauren Hubener, Yea-Seul Kim and Jin Ha Lee	205
+Exploring the Latent Structure of Collaborations in Music Recordings: A Case Study in Jazz	Nazareno Andrade and Flavio Figueiredo	251
+Global Properties of Expert and Algorithmic Hierarchical Music Analyses	Phillip Kirlin	259
+Human-Interactive Optical Music Recognition	Liang Chen, Erik Stolterman and Christopher Raphael	106
+I Said It First: Topological Analysis of Lyrical Influence Networks	Jack Atherton and Blair Kaneshiro	221
+Impact of Music on Decision Making in Quantitative Tasks	Elad Liebman, Peter Stone and Corey White	272
+Interactive Scores in Classical Music Production	Simon Waloschek, Axel Berndt, Benjamin W. Bohl and Aristotelis Hadjakos	192
+Jazz Ensemble Expressive Performance Modeling	Helena Bantulà, Sergio Giraldo and Rafael Ramírez	162
+Mining Musical Traits of Social Functions in Native American Music	Daniel Shanahan, Kerstin Neubarth and Darrell Conklin	167
+Mining Online Music Listening Trajectories	Flavio Figueiredo, Bruno Ribeiro, Christos Faloutsos, Nazareno Andrade and Jussara M. Almeida	193
+Musical Typicality: How Many Similar Songs Exist?	Tomoyasu Nakano, Daichi Mochihashi, Kazuyoshi Yoshii and Masataka Goto	191
+Musicdb: A Platform for Longitudinal Music Analytics	Jeremy Hyrkas and Bill Howe	284
+Noise Robust Music Artist Recognition Using I-Vector Features	Hamid Eghbal-zadeh and Gerhard Widmer	37
+On The Use Of Note Onsets for Improved Lyrics-To-Audio Alignment in Turkish Makam Music	Georgi Dzhambazov, Ajay Srinivasamurthy, Sertan Sentürk and Xavier Serra	243
+Querying XML Score Databases: Xquery is not Enough!	Raphael Fournier-S'niehotta, Philippe Rigaux and Nicolas Travers	136
+Recurrent Neural Networks for Drum Transcription	Richard Vogl, Matthias Dorfer and Peter Knees	269
+Singing Voice Melody Transcription Using Deep Neural Networks	François Rigaud and Mathieu Radenen	163
+Sparse Coding Based Music Genre Classification Using Spectro-Temporal Modulations	Kai-Chun Hsu, Chih-Shan Lin and Tai-Shih Chi	46
+Time-Delayed Melody Surfaces for Rāga Recognition	Sankalp Gulati, Joan Serrà, Kaustuv Kanti Ganguli, Sertan Şentürk and Xavier Serra	30
+Transcribing Human Piano Performances into Music Notation	Andrea Cogliati, David Temperley and Zhiyao Duan	88
+WiMIR: An Informetric Study On Women Authors In ISMIR	Xiao Hu, Kahyun Choi, Jin Ha Lee, Audrey Laplante, Yun Hao, Sally Jo Cunningham and J. Stephen Downie	283
