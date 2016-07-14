@@ -1,0 +1,23 @@
+<title>Proceedings of the 16th International Society for Music Information Retrieval Conference, ISMIR 2015, Málaga, Spain, October 26-30, 2015</title>
+<booktitle>ISMIR 2015</booktitle>
+<editor>Meinard Müller</editor>
+<editor>Frans Wiering</editor>
+<publisher></publisher>
+<series></series>
+<volume></volume>
+<year>2015</year>
+<issn></issn>
+<isbn></isbn>
+
+<h2>Papers</h2>
+<ul>
+{%- for session in sessions %}
+{%- for publication in session.publications %}
+<li>{{ publication.authors }}:
+{{ publication.title }}.
+{{ publication.paper_startpage }}-{{ publication.paper_endpage }}
+<ee>http://ismir2015.uma.es/{{ publication.pdf }}</ee>
+{%- endfor %}
+{%- endfor %}
+</ul>
+<footer>
