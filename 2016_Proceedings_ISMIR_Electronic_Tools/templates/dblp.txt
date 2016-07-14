@@ -1,13 +1,15 @@
-<title>Proceedings of the 16th International Society for Music Information Retrieval Conference, ISMIR 2015, Málaga, Spain, October 26-30, 2015</title>
-<booktitle>ISMIR 2015</booktitle>
-<editor>Meinard Müller</editor>
-<editor>Frans Wiering</editor>
+<title>Proceedings of the 17th International Society for Music Information Retrieval Conference, ISMIR 2016, New York City, USA, August 7-11, 2016</title>
+<booktitle>ISMIR 2016</booktitle>
+<editor>Johanna Devaney</editor>
+<editor>Michael I Mandel</editor>
+<editor>Douglas Turnbull</editor>
+<editor>George Tzanetakis</editor>
 <publisher></publisher>
 <series></series>
 <volume></volume>
-<year>2015</year>
+<year>2016</year>
 <issn></issn>
-<isbn></isbn>
+<isbn>978-0-692-75506-8</isbn>
 
 <h2>Papers</h2>
 <ul>
@@ -16,7 +18,7 @@
 <li>{{ publication.authors }}:
 {{ publication.title }}.
 {{ publication.paper_startpage }}-{{ publication.paper_endpage }}
-<ee>http://ismir2015.uma.es/{{ publication.pdf }}</ee>
+<ee>https://wp.nyu.edu/ismir2016/event/program/{{ publication.pdf }}</ee>
 {%- endfor %}
 {%- endfor %}
 </ul>
