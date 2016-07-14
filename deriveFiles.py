@@ -10,6 +10,7 @@ electronic proceedings.
 import csv
 import collections
 import os
+import shutil
 
 def unicode_csv_reader(utf8_data, dialect="excel", **kwargs):
     """This function will read a csv file and will interpret the
@@ -76,17 +77,19 @@ def loadSessionInfo():
 
     
 def generateElectronicCsvFiles(csvFile):
-    generateSessionIndex(csvFile)
+    copySessionIndex()
     generateSessionFiles(csvFile)
     
-def generateSessionIndex(csvFile):
-    sessionInfo = loadSessionInfo()
-    fileName = '2016_Proceedings_ISMIR_Electronic_Tools/data/session_index.csv'
-    makeDirs(os.path.dirname(fileName))
-    with open(fileName, 'w') as sessionFile:
-        for session, (name, number) in sorted(sessionInfo.iteritems()):
-            sessionFile.write('%s;%s;%s\n' % (session, number, name))
-        
+def copySessionIndex():
+    """Copy session_index file, created manually in excel.  Could
+    maybe be created automatically from table of contents file from
+    latex, but this is easier for now.
+
+    """
+    outFile = '2016_Proceedings_ISMIR_Electronic_Tools/data/session_index.csv'
+    inFile  = 'data/session_index.csv'
+    shutil.copy(inFile, outFile)
+    
 def generateSessionFiles(csvFile):
     sessionInfo = loadSessionInfo()
     sessions = collections.defaultdict(list)
@@ -97,6 +100,7 @@ def generateSessionFiles(csvFile):
                                 '%s.csv' % session)
         makeDirs(os.path.dirname(fileName))
         with open(fileName, 'w') as sessionFile:
+            sessionFile.write('Title;Authors;File\n')
             for title, authors, number in info:
                 sessionFile.write('%s;%s;articles/%03d_Paper.pdf\n'
                                   % (title, authors, number))
@@ -115,7 +119,8 @@ def main():
     csvFile = 'data/completePaperList.csv'
     generatePapersDotTex(csvFile)
     generateElectronicCsvFiles(csvFile)
-
+    shutil.copy('data/reviewers.csv',
+                '2016_Proceedings_ISMIR_Electronic_Tools/data/reviewers.txt')
 
 
 if __name__ == '__main__':
