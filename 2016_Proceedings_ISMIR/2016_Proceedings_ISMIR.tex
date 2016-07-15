@@ -4,8 +4,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
 \usepackage{setspace}
-
+\usepackage{incgraph,tikz}  % For full-page picture for cover http://tex.stackexchange.com/a/136946/97428
 \usepackage{mathptmx}  % Use times font for text and math
+\usepackage{hyperref}
+%\usepackage[usenames]{color}
+% \hypersetup{
+%   linkcolor      = {RoyalBlue},
+%   citecolor      = {RoyalBlue},
+%   urlcolor       = {RoyalBlue}}
+\hypersetup{
+  linkcolor      = [rgb]{0,0.5,0.5},
+  citecolor      = [rgb]{0,0.5,0.5},
+  urlcolor       = [rgb]{0,0.5,0.5}}
+
 
 \newcommand{\includeabstract}[4]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
   \subsection*{#1\\\textit{#2}}
@@ -22,7 +33,9 @@
 % include first page without headers
 \pagenumbering{gobble}
 %\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/01_CoverFirst.pdf}%
-\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/02_CoverSecond.pdf}%
+%\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/02_CoverSecond.pdf}%
+\incgraph[documentpaper][width=\paperwidth,height=\paperheight]{cover_mockup.png}
+%\includegraphics[height=\textheight]{cover_mockup}
 \thispagestyle{empty}\cleardoublepage
 \pagenumbering{roman}
 \includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/02_CoverSecond.pdf}%
