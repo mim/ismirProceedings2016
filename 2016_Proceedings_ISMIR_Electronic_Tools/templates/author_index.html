@@ -16,7 +16,7 @@
     </td>
     <td>
         {%- for pdf in author.pdfs -%}
-            <a href="articles_splitted/{{ pdf }}"  data-toggle="tooltip" data-placement="bottom" title="{{ author.paper_title[loop.index0] }}">{{ author.paper_startpage[loop.index0] }}</a>
+            <a href="articles/{{ pdf }}"  data-toggle="tooltip" data-placement="bottom" title="{{ author.paper_title[loop.index0] }}">{{ author.paper_startpage[loop.index0] }}</a>
             {%- if not loop.last -%},{% endif %}
         {% endfor %}
     </td>

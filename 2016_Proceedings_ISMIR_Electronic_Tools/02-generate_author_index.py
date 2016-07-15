@@ -24,7 +24,7 @@ template = template_env.get_template('author_index.html')
 
 publications = []
 unique_authors =[]
-pdf_offset = 32
+pdf_offset = 28
 
 with open('data/session_index.csv') as session_index:
     si_reader = unicode_csv_reader(session_index, delimiter=';')
