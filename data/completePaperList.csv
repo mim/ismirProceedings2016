@@ -28,13 +28,13 @@ Long-Term Reverberation Modeling for Under-Determined Audio Source Separation wi
 Nonnegative Tensor Factorization with Frequency Modulation Cues for Blind Audio Source Separation	Elliot Creager, Noah Stein, Roland Badeau and Philippe Depalle	103	02_poster-session-01
 On Drum Playing Technique Detection in Polyphonic Mixtures	Chih-Wei Wu and Alexander Lerch	268	02_poster-session-01
 Predicting Missing Music Components with Bidirectional Long Short-Term Memory Neural Networks	I-Ting Liu and Richard Randall	97	02_poster-session-01
-Structural Segmentation and Visualization of Sitar and Sarod Concert Audio	Vinutha T. P., Suryanarayana Sankagiri, Kaustuv Kanti Ganguli and Preeti Rao	151	02_poster-session-01
+Structural Segmentation and Visualization of Sitar and Sarod Concert Audio	T. P. Vinutha, Suryanarayana Sankagiri, Kaustuv Kanti Ganguli and Preeti Rao	151	02_poster-session-01
 Template-Based Vibrato Analysis in Complex Music Signals	Jonathan Driedger, Stefan Balke, Sebastian Ewert and Meinard Mueller	5	02_poster-session-01
 Towards Evaluating Multiple Predominant Melody Annotations in Jazz Recordings	Stefan Balke, Jonathan Driedger, Jakob Abesser, Christian Dittmar and Meinard Mueller	49	02_poster-session-01
 Joint Beat and Downbeat Tracking with Recurrent Neural Networks	Sebastian Böck, Florian Krebs and Gerhard Widmer	186	03_oral-session-02
 Bayesian Meter Tracking on Learned Signal Representations	Andre Holzapfel and Thomas Grill	132	03_oral-session-02
 Tempo Estimation for Music Loops and a Simple Confidence Measure	Frederic Font and Xavier Serra	195	03_oral-session-02
-Brain Beats: Tempo Extraction from EEG Data	Sebastian Stober, Thomas Praetzlich and Meinard Mueller	22	03_oral-session-02
+Brain Beats: Tempo Extraction from EEG Data	Sebastian Stober, Thomas Prätzlich and Meinard Mueller	22	03_oral-session-02
 A Plan for Sustainable MIR Evaluation	Brian McFee, Eric Humphrey and Julián Urbano	257	04_oral-session-03
 Go with the Flow: When Listeners Use Music as Technology	Andrew Demetriou, Martha Larson and Cynthia C. S. Liem	68	04_oral-session-03
 A Look at the Cloud from Both Sides Now: An Analysis of Cloud Music Service Usage	Jin Ha Lee, Yea-Seul Kim and Chris Hubbles	87	04_oral-session-03
@@ -55,7 +55,7 @@ Genre Ontology Learning: Comparing Curated with Crowd-Sourced Ontologies	Hendrik
 Genre Specific Dictionaries for Harmonic/Percussive Source Separation	Clément Laroche, Hélène Papadopoulos, Matthieu Kowalski and Gaël Richard	42	05_poster-session-02
 Good-sounds.org: A Framework to Explore Goodness in Instrumental Sounds	Giuseppe Bandiera, Oriol Romani Picas and Xavier Serra	199	05_poster-session-02
 Improving Predictions of Derived Viewpoints in Multiple Viewpoints Systems	Thomas Hedges and Geraint Wiggins	208	05_poster-session-02
-Known Artist Live Song ID: A Hashprint Approach	TJ Tsai, Thomas Praetzlich and Meinard Mueller	98	05_poster-session-02
+Known Artist Live Song ID: A Hashprint Approach	TJ Tsai, Thomas Prätzlich and Meinard Mueller	98	05_poster-session-02
 Learning Temporal Features Using a Deep Neural Network and its Application to Music Genre Classification	Il-Young Jeong and Kyogu Lee	159	05_poster-session-02
 Meter Detection in Symbolic Music Using Inner Metric Analysis	W. Bas de Haas and Anja Volk	33	05_poster-session-02
 Minimax Viterbi Algorithm for HMM-Based Guitar Fingering Decision	Gen Hori and Shigeki Sagayama	285	05_poster-session-02
@@ -76,7 +76,7 @@ Systematic Exploration of Computational Music Structure Research	Oriol Nieto and
 Using Priors to Improve Estimates of Music Structure	Jordan Smith and Masataka Goto	135	07_oral-session-05
 Music Structural Segmentation Across Genres with Gammatone Features	Mi Tian and Mark Sandler	32	07_oral-session-05
 A Comparison of Melody Extraction Methods Based on Source-Filter Modelling	Juan J. Bosch, Rachel M. Bittner, Justin Salamon and Emilia Gómez	256	08_poster-session-03
-An Analysis of Agreement in Classical Music Perception and its Relationship to Listener Characteristics	Markus Schedl, Hamid Eghbal-Zadeh, Emilia Gómez and Marko Tkalcic	260	08_poster-session-03
+An Analysis of Agreement in Classical Music Perception and its Relationship to Listener Characteristics	Markus Schedl, Hamid Eghbal-zadeh, Emilia Gómez and Marko Tkalcic	260	08_poster-session-03
 An Attack/Decay Model for Piano Transcription	Tian Cheng, Matthias Mauch, Emmanouil Benetos and Simon Dixon	85	08_poster-session-03
 Automatic Drum Transcription Using Bi-Directional Recurrent Neural Networks	Carl Southall, Ryan Stables and Jason Hockman	217	08_poster-session-03
 Automatic Practice Logging: Introduction, Dataset & Preliminary Study	R. Michael Winters, Siddharth Gururani and Alexander Lerch	181	08_poster-session-03
