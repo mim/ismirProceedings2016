@@ -1,0 +1,190 @@
+/* Proceedings */
+
+.table-index {
+    width: 60%;
+}
+
+.table-index td {
+    width: 50%;
+}
+
+.table-reviewers {
+    font-size: 14px;
+}
+
+/* Program */
+
+.table-program {
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+.table-program tbody>tr>td {
+    width: 16%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-program thead>tr>th {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #444444;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.table-program .time {
+    width: 5%;
+    text-align: center;
+}
+
+.table-program .admin {
+    background-color: #f2dbdb;
+}
+
+.table-program .openclose {
+    background-color: #fabf8f;
+}
+
+.table-program .pause {
+    background-color: #eed6a8;
+}
+
+.table-program .oral {
+    background-color: #a6a6a6;
+}
+
+.table-program .poster {
+    background-color: #d9d9d9;
+}
+
+.table-program .tutorial {
+    background-color: #c2d69b;
+}
+
+.table-program .keynote {
+    background-color: #17365d;
+}
+
+.table-program .keynote a {
+    color: #ffffff;
+}
+
+.table-program .social {
+    background-color: #d99594;
+}
+
+.table-program .wimir {
+    background-color: #ffb7db;
+}
+
+.table-program .lbd {
+    background-color: #b8cce4;
+}
+
+.table-program td.color1 {
+    background-color: #f2dbdb;
+}
+
+.table-program td.color2 {
+    background-color: #a6a6a6;
+}
+
+.table-program td.color3 {
+    background-color: #c2d69b;
+}
+
+.table-program td.color4 {
+    background-color: #d9d9d9;
+}
+
+.table-program td.color5 {
+    background-color: #fabf8f;
+}
+
+.table-program td.color6 {
+    background-color: #d99594;
+}
+
+.table-program .keynote {
+    background-color: #17365d;
+    color: #ffffff;
+}
+
+.table-program td.color8 {
+    background-color: #ffb7db;
+}
+
+.table-program td.color9 {
+    background-color: #b8cce4;
+}
+
+.table-program td.color10 {
+    background-color: #eed6a8;
+}
+
+/* Sponsors */
+
+h2.sponsor {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.gold, .silver, .bronze, .orga {
+    margin-top: 15px;
+    margin-right: 100px;
+}
+
+.orga {
+    margin-right: 80px;
+}
+
+/* Panel */
+
+.clef {
+    padding-top: 120px;
+}
+
+.page-header h1 {
+    font-size: 20px;
+}
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.stylish-panel h2 {
+    font-size: 28px;
+}
+
+.stylish-panel a {
+    color: #000;
+}
+
+.stylish-panel > a > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.stylish-panel > a > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel img {
+    width: 200px;
+    height: 200px;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+}
