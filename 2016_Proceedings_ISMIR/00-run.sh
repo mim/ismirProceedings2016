@@ -12,4 +12,4 @@ pdflatex 2016_Proceedings_ISMIR.tex
 pdflatex 2016_Proceedings_ISMIR.tex
 
 cp 2016_Proceedings_ISMIR.pdf ../2016_Proceedings_ISMIR_Electronic/
-cp 2016_Proceedings_ISMIR.pdf ../2016_Proceedings_ISMIR_Electronic_Tools/data/
+# cp 2016_Proceedings_ISMIR.pdf ../2016_Proceedings_ISMIR_Electronic_Tools/data/
