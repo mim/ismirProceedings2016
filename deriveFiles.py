@@ -102,7 +102,7 @@ def generateSessionFiles(csvFile):
         with open(fileName, 'w') as sessionFile:
             sessionFile.write('Title;Authors;File\n')
             for title, authors, number in info:
-                sessionFile.write('%s;%s;articles/%03d_Paper.pdf\n'
+                sessionFile.write('%s;%s;%03d_Paper.pdf\n'
                                   % (title, andToComma(authors), number))
 
 def makeDirs(path):

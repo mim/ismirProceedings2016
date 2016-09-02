@@ -4,6 +4,7 @@ import csv
 import codecs
 import jinja2
 import os
+import re
 from nameparser import HumanName
 from ismir_utils import search_pages_total, unicode_csv_reader
 import string
@@ -41,7 +42,7 @@ with open('data/session_index.csv') as session_index:
             current_paper_start = int(start_page)
             for paper_title, authors, pdf_filename in s_reader:
                 current_paper = pdf_filename
-                pdf_filename = pdf_filename.split('/')[1] #split and take the part after "/"
+                pdf_filename = re.sub('^[^/]*?/', '', pdf_filename) #split and take the part after "/"
                 # search for it in the pages_total
                 current_paper_length = search_pages_total(current_paper, pages_total)
                 current_paper_end = current_paper_start+current_paper_length-1

@@ -18,7 +18,7 @@
 <li>{{ publication.authors }}:
 {{ publication.title }}.
 {{ publication.paper_startpage }}-{{ publication.paper_endpage }}
-<ee>https://wp.nyu.edu/ismir2016/event/program/{{ publication.pdf }}</ee>
+<ee>https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/{{ publication.pdf }}</ee>
 {%- endfor %}
 {%- endfor %}
 </ul>
